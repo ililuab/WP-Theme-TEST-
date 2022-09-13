@@ -1,0 +1,597 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  background-color: #f5f5f5;
+}
+
+a {
+  color: black !important;
+}
+
+.homepage_link {
+  font-weight: lighter;
+}
+
+.homepage_link:hover {
+  font-weight: bolder;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.screen-reader-text {
+  display: none;
+}
+
+.viernulvier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+}
+
+.viernulvier_text {
+  font-size: 80px;
+  opacity: 0.5;
+}
+
+/* Back to Top button */
+#backToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.button_header {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  width: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+/* Back to Top button */
+/* Begin Header */
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  height: 10vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: 8vh;
+  margin-left: 53vw;
+}
+
+.searchbar {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: text;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  width: 9vw;
+  height: 3vh;
+  margin-left: 10px;
+}
+
+.dot {
+  line-height: 0;
+}
+
+.page_item.page-item-26 {
+  font-weight: lighter;
+}
+
+.page_item.page-item-36 {
+  margin-left: 2vw;
+  font-weight: lighter;
+}
+
+.page_item.page-item-243 {
+  font-weight: lighter;
+  margin-left: 2vw;
+}
+
+.page_item.page-item-253 {
+  font-weight: lighter;
+  margin-left: 2vw;
+}
+
+.page_item.page-item-253:hover {
+  font-weight: bolder;
+  margin-left: 2vw;
+}
+
+.page_item.page-item-243:hover {
+  font-weight: bolder;
+}
+
+.page_item.page-item-26:hover {
+  font-weight: bolder;
+}
+
+.page_item.page-item-36:hover {
+  font-weight: bolder;
+}
+
+/* Einde Header */
+/* Begin Front-Page */
+.spacer {
+  width: 100%;
+  height: 12vh;
+}
+
+hr {
+  margin-top: -19.5px;
+}
+
+.artikel_content {
+  color: black;
+  background-color: black;
+}
+
+.fp_innercontainer {
+  width: 100%;
+  height: 80vh;
+  /* background-color: blue; */
+}
+
+.fp_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  height: 50vh;
+  /* background-color: aqua; */
+}
+
+.text_container {
+  width: 70%;
+  height: 20vh;
+}
+
+.filler_text {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: 1em;
+  text-decoration: none;
+  opacity: 0.4;
+}
+
+.buildings {
+  position: absolute;
+  height: 80%;
+  width: 44vw;
+  background-size: cover;
+  left: 300px;
+  margin-left: 880px;
+  bottom: 1px;
+  overflow: hidden;
+}
+
+.next_content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.projectimg {
+  width: 100%;
+  height: 40vh;
+}
+
+.p1 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 40vh;
+}
+
+.p2 {
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 40vh;
+}
+
+.p3 {
+  width: 20%;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 40vh;
+}
+
+.genre {
+  opacity: 0.4;
+  margin-top: 2vh;
+  font-weight: lighter;
+}
+
+.genre2 {
+  opacity: 0.4;
+  margin-top: 5vh;
+  font-weight: lighter;
+}
+
+.description {
+  margin-top: 3vh;
+  font-size: larger;
+}
+
+.description2 {
+  margin-top: 3vh;
+  width: 530px;
+  font-size: larger;
+  opacity: 0.4;
+}
+
+.naam {
+  margin-top: 1vh;
+  font-size: 40px;
+}
+
+.artikel {
+  margin-top: 6vh;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.artikel_inhoud {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  /* background-color: blue; */
+}
+
+.parent_inhoudA1 {
+  width: 40%;
+  height: 50vh;
+  margin-left: 10%;
+  /* background-color: gray; */
+}
+
+.imgA1 {
+  width: 35vw;
+  height: 65vh;
+  margin-left: 7%;
+}
+
+.other_article {
+  margin-top: 5vh;
+}
+
+.logo_artikel {
+  border-radius: 50%;
+}
+
+/* Begin Footer */
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 20vh;
+  background-color: #f5f5f5;
+}
+
+.inner_footer {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 10vh;
+}
+
+.footer_author {
+  margin-top: 5px;
+  opacity: 0.4;
+}
+
+.copyright {
+  margin-left: 50px;
+  opacity: 0.4;
+  font-size: 30px;
+}
+
+/* Einde Footer */
+/* Begin Blog Page */
+.post_page_container {
+  display: flex;
+}
+
+.post_page {
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 70%;
+  height: auto;
+}
+
+.divideLine {
+  width: 100%;
+  height: 3px;
+  background-color: black;
+}
+
+.post_container_outer {
+  display: flex;
+  justify-content: center;
+}
+
+.post_container_inner {
+  border: solid white 3px;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 60vh;
+  /* background-color: gray; */
+}
+
+.post_title {
+  font-size: 30px;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+}
+
+.post_link {
+  margin-top: 5vh;
+}
+
+.post_description {
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+.blog_page_background {
+  background-image: url("/wp-content/themes/test/assets/images/BACKGIMGblog-post.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar_blog {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 10%;
+  height: 100vh;
+  margin-right: 7vw;
+}
+
+.blog_preview {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 75vh;
+}
+
+.blog_preview_text {
+  text-align: center;
+  font-size: 40px;
+}
+
+.post_item_blog_preview {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 20vh;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+
+.hr1 {
+  margin-top: 1px;
+}
+
+.filterby {
+  opacity: 0.4;
+}
+
+.filter {
+  font-weight: lighter;
+}
+
+.filter:hover {
+  font-weight: bolder;
+}
+
+/* Einde Blog Page */
+/* Begin FAQ sectie */
+.FAQ_container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.FAQ_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+
+.FAQ_header_text {
+  text-align: center;
+  margin-bottom: 4vh;
+}
+
+.FAQ_rows {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
+}
+
+.FAQ_vraag {
+  font-size: 30px;
+}
+
+.FAQ_antwoord {
+  opacity: 0.4;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+/* Einde FAQ sectie */
+/* Begin Contact form */
+.wpcf7 input[type=url], .wpcf7 input[type=email], .wpcf7 input[type=tel] {
+  color: #000;
+}
+
+.wpcf7 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.wpcf7-form-control.has-spinner.wpcf7-submit {
+  cursor: pointer;
+}
+
+/* Einde Contact form */
+/* Begin Bootstrap */
+.bg-color-contact {
+  background-color: #f5f5f5;
+}
+
+.contact_container_home {
+  display: flex;
+  justify-content: center;
+}
+
+/* Einde Bootstrap */
+/* Begin store pagina */
+.container_store {
+  width: 100%;
+  height: auto;
+}
+
+.container_store .gap {
+  margin-top: 6vh;
+}
+.container_store .product_title_store {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.container_store .product_genre_store {
+  opacity: 0.3;
+}
+.container_store .store_center {
+  display: flex;
+  justify-content: center;
+}
+
+.buy_button {
+  background-color: #000000;
+  border: solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #f5f5f5;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: 16px;
+  font-weight: 600;
+  min-height: 30px;
+  padding: 4px 6px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  touch-action: manipulation;
+  width: 15%;
+  will-change: transform;
+}
+
+.buy_button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.buy_button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* Einde store pagina */
