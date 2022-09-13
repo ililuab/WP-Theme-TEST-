@@ -1,5 +1,5 @@
-# WP-Theme-TEST-
-Een thema gemaakt met Wordpress, Bootstrap, Html, SCSS/SASS en JavaScript
+# Wordpress Theme (TEST) 
+Een Wordpress thema gemaakt met Wordpress, PHP, HTML, SCSS/SASS en SQL (Database)
 
 
 ![Screenshot 2022-09-13 at 11 31 30](https://user-images.githubusercontent.com/94444127/189866536-c82a81f3-fad1-4a7d-935e-b47c1a346c2e.png)
